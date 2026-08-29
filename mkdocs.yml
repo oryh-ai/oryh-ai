@@ -3,8 +3,8 @@
 site_name: ORYH
 site_description: An AI-native OA/BPM platform where the business logic lives in agents.
 site_url: https://oryh-ai.github.io/oryh-ai/
-repo_url: https://github.com/AIE-enginehub/oryh
-repo_name: AIE-enginehub/oryh
+repo_url: https://github.com/AIE-enginehub/Oryh
+repo_name: AIE-enginehub/Oryh
 copyright: Apache-2.0 · ORYH is a trademark of its owner — see TRADEMARK.md
 docs_dir: content
 theme:
@@ -39,10 +39,19 @@ plugins:
       name: 简体中文
       build: true
       nav_translations:
+        User manual: 使用手册
         Platform: 平台
         Business objects: 业务对象
         Writing: 文章
         Home: 首页
+        Overview: 手册总览
+        Install: 安装部署
+        First boot: 首次启动
+        Connect your agent: 接入你的 Agent
+        Set up the workspace: 初始化工作区
+        Daily use: 日常使用
+        Administration: 管理控制台
+        Operations: 运维
         It started with a timesheet: 从一张工时单开始
 markdown_extensions:
 - admonition
@@ -55,17 +64,14 @@ markdown_extensions:
     anchor_linenums: true
 nav:
 - Home: index.md
-- Platform:
-  - AI-native OA/BPM positioning: platform/ai-native-platform.md
-  - Capabilities, Skills and the API: platform/capabilities-skills-api.md
-  - Scoped capabilities for self-authored Skills: platform/scoped-skill-capabilities.md
-  - Agent self-connect (device flow): platform/device-flow.md
-- Business objects:
-  - Company rules: objects/policies.md
-  - Billing accounts: objects/billing-accounts.md
-  - Customers: objects/customers.md
-  - Leave: objects/leave.md
-  - Payroll: objects/payroll.md
-  - Invoices, payments and settlement: objects/receivables-payables.md
+- User manual:
+  - Overview: manual/index.md
+  - Install: manual/install.md
+  - First boot: manual/first-boot.md
+  - Connect your agent: manual/connect-agent.md
+  - Set up the workspace: manual/workspace.md
+  - Daily use: manual/daily-use.md
+  - Administration: manual/administration.md
+  - Operations: manual/operations.md
 - Writing:
   - It started with a timesheet: writing/01-it-started-with-a-timesheet.md

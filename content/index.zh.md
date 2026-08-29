@@ -3,21 +3,29 @@
 ORYH 是一个 AI 原生的 OA/BPM 平台。业务逻辑不在服务端 —— 它在 agent 代表某个人
 加载的 Skill 里，而服务端记录真正发生了什么。
 
-## 从这里开始
+## 自己把它跑起来
 
-- **[AI 原生 OA/BPM 定位](platform/ai-native-platform.md)** —— 平台为何而建，
-  以及刻意不做什么。
-- **[Capability、Skill 与 API](platform/capabilities-skills-api.md)** ——
-  角色的能力如何变成这个人的 agent 被允许运行的 Skill。
-- **[Agent 自助接入](platform/device-flow.md)** —— agent 如何在从不接触你的密码
-  的前提下拿到设备凭证。
+**[使用手册](manual/index.md)** 覆盖自托管产品的完整链路：[安装部署](manual/install.md)、
+[取走首次启动只打印一次的凭据](manual/first-boot.md)、[接入 agent](manual/connect-agent.md)、
+[把公司的记录装进去](manual/workspace.md)、以及[长期运维](manual/operations.md)。
 
-## 业务对象
-
-每篇文档讲一个对象，以及它为什么长这样 —— 为什么缺勤本身就是记录，为什么工资单
-是一张发票，为什么零售和 B2B 共用一张表。
-
-## 源码
+```bash
+git clone https://github.com/AIE-enginehub/Oryh.git
+cd Oryh
+docker compose up -d --build
+```
 
 开源内核以 Apache-2.0 发布于
-[AIE-enginehub/oryh](https://github.com/AIE-enginehub/oryh)。
+[AIE-enginehub/Oryh](https://github.com/AIE-enginehub/Oryh)。
+
+## 文章
+
+关于它从哪儿来、为什么长成这样 ——
+[从一张工时单开始](writing/01-it-started-with-a-timesheet.md)。
+
+## 设计说明
+
+建模背后的推理 —— 能力与 Skill、设备授权流程，以及每个业务对象各一篇 ——
+随代码发布，不放在这个站上：仓库里的
+[`docs/`](https://github.com/AIE-enginehub/Oryh/tree/main/docs)。
+任何一个运行中的部署，API 文档在 `/redoc`。
