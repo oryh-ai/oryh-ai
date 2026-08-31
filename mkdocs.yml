@@ -53,6 +53,8 @@ plugins:
         Administration: 管理控制台
         Operations: 运维
         It started with a timesheet: 从一张工时单开始
+        What if the ERP user is an agent?: 如果用 ERP 的主要是 Agent
+        Software keeps the records, agents handle the logic: 软件负责记录，Agent 负责逻辑
 markdown_extensions:
 - admonition
 - attr_list
@@ -75,3 +77,5 @@ nav:
   - Operations: manual/operations.md
 - Writing:
   - It started with a timesheet: writing/01-it-started-with-a-timesheet.md
+  - What if the ERP user is an agent?: writing/02-when-agents-use-erp.md
+  - Software keeps the records, agents handle the logic: writing/03-software-records-agents-decide.md

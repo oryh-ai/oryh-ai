@@ -23,8 +23,12 @@ The open core is Apache-2.0 at
 
 ## Writing
 
-Notes on where this came from and why it is shaped the way it is —
-[it started with a timesheet](writing/01-it-started-with-a-timesheet.md).
+*When agents start operating a business* — a series on where this came from
+and why it is shaped the way it is.
+
+1. [It started with a timesheet](writing/01-it-started-with-a-timesheet.md)
+2. [What if the ERP user is an agent?](writing/02-when-agents-use-erp.md)
+3. [Software keeps the records, agents handle the logic](writing/03-software-records-agents-decide.md)
 
 ## Design notes
 

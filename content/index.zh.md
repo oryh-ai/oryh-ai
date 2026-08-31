@@ -20,8 +20,11 @@ docker compose up -d --build
 
 ## 文章
 
-关于它从哪儿来、为什么长成这样 ——
-[从一张工时单开始](writing/01-it-started-with-a-timesheet.md)。
+《当 Agent 开始操作企业：ORYH 的设计探索》—— 关于它从哪儿来、为什么长成这样。
+
+1. [从一张工时单开始](writing/01-it-started-with-a-timesheet.md)
+2. [如果用 ERP 的主要是 Agent，软件要怎么写？](writing/02-when-agents-use-erp.md)
+3. [软件负责记录，Agent 负责逻辑](writing/03-software-records-agents-decide.md)
 
 ## 设计说明
 
