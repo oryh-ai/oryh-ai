@@ -18,9 +18,9 @@ docker compose up -d --build
 
 首次构建要几分钟，因为 API 和控制台镜像是从源码构建的。之后启动时会自动跑数据库迁移。
 
-!!! note "compose 文件自己的注释是过期的"
+!!! note "v2026.8.30.1 及更早版本：compose 文件自己的注释是过期的"
 
-    公开仓库里 `docker-compose.yml` 顶部的注释块仍然写着 `docker compose -f docker-compose.standalone.yml`。那个文件在这里并不存在 —— standalone 那套栈**就是**这个仓库的 `docker-compose.yml`，所以直接 `docker compose up -d` 才是对的。这段注释是从私有 trunk 导出时残留下来的。
+    在那些版本里，`docker-compose.yml` 顶部的注释块仍然写着 `docker compose -f docker-compose.standalone.yml` —— 而那个文件在发布出来的代码树里并不存在。这是从私有 trunk 导出时残留下来的，之后已在导出环节修正。任何版本下正确的命令都是直接 `docker compose up -d`。
 
 启动之后：
 

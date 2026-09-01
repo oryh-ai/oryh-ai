@@ -8,6 +8,12 @@ clicking — `oryh-master-data` loads products, vendors and customers,
 `oryh-access-admin` changes who may do what, `oryh-policy` writes company
 rules. The console is where you check the result and handle the exceptions.
 
+If you would rather be walked through it, that is a skill too: ask an
+administrator's agent to initialise the workspace and `oryh-workspace-setup`
+reads what is already configured, interviews you about what the company
+actually does, and drives the rest. Later it answers the other half of the
+question — what is still missing.
+
 ## People: two different records
 
 The distinction catches everyone once, so learn it first.

@@ -62,6 +62,12 @@ approval-flow skills; a self-hosted deployment writes its own with
 optional flow runner drives queues with your own agent runtime and model key —
 see [operations](operations.md).
 
+## Sales pipeline
+
+| Ask for | Skill |
+|---|---|
+| Capture and advance leads, convert one into a customer and an opportunity | `oryh-crm` |
+
 ## Procurement and stock
 
 | Ask for | Skill |
@@ -76,6 +82,7 @@ see [operations](operations.md).
 | Bill a customer, register receipts, settle | `oryh-receivables` |
 | Book what a supplier billed, check it against the PO, pay it | `oryh-payables` |
 | Customer deposits and credit lines | `oryh-billing-account` |
+| Where the money sits and moves — bank and platform accounts, statement import, reconciliation | `oryh-treasury` |
 
 Settlement is a ledger, not a status field — an invoice is not "paid" because
 somebody set it to paid, it is paid because payments were matched against it.
@@ -98,6 +105,7 @@ someone the workspace deliberately named. See [payroll](https://github.com/AIE-e
 
 | Ask for | Skill |
 |---|---|
+| "We just deployed — where do I start?" | `oryh-workspace-setup` |
 | "Let Xie Ting place purchase orders" | `oryh-access-admin` |
 | Write, publish, amend or repeal a company rule | `oryh-policy` |
 | Load or maintain master data | `oryh-master-data` |

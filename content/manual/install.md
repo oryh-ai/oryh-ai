@@ -21,14 +21,13 @@ docker compose up -d --build
 The first build takes a few minutes because the API and console images are
 built from source. Migrations then run on start.
 
-!!! note "The compose file's own header is stale"
+!!! note "Releases up to v2026.8.30.1: the compose file's own header is stale"
 
-    The comment block at the top of `docker-compose.yml` in the public
-    repository still refers to `docker compose -f docker-compose.standalone.yml`.
-    That file does not exist here — the standalone stack **is**
-    `docker-compose.yml` in this repository, so plain `docker compose up -d`
-    is the correct command. The header is a leftover from the private trunk
-    the release is exported from.
+    In those releases the comment block at the top of `docker-compose.yml`
+    still refers to `docker compose -f docker-compose.standalone.yml` — a file
+    the published tree does not contain. It is a leftover from the private
+    trunk the release is exported from, corrected in the export since. Plain
+    `docker compose up -d` is the command in every release.
 
 When the stack is up:
 

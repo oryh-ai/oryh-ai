@@ -42,6 +42,12 @@
 
 **路由本身不随公开版本发布。** 托管服务维护它自己的一套审批流程技能；自托管部署要么用 `oryh-skill-author` 写自己的，要么直接审批。想让它无人值守地跑，可选的 flow runner 会用**你自己的** agent 运行时和模型密钥来驱动队列 —— 见[运维](operations.md)。
 
+## 销售线索
+
+| 你要什么 | 技能 |
+|---|---|
+| 记线索、推进线索、把成熟线索转成客户和商机 | `oryh-crm` |
+
 ## 采购与库存
 
 | 你要什么 | 技能 |
@@ -56,6 +62,7 @@
 | 给客户开票、登记收款、核销 | `oryh-receivables` |
 | 登记供应商开来的票、与采购单核对、付款 | `oryh-payables` |
 | 客户预存款与挂账额度 | `oryh-billing-account` |
+| 钱在哪、怎么动 —— 银行户与平台账户、流水导入、对账 | `oryh-treasury` |
 
 核销是一本账，不是一个状态字段 —— 一张发票不会因为谁把它设成「已付」就付了，它付了是因为有付款被匹配上去。原因见[发票、收付款与核销](https://github.com/AIE-enginehub/Oryh/blob/main/docs/receivables-payables.md)和[账户余额](https://github.com/AIE-enginehub/Oryh/blob/main/docs/billing-accounts.md)。
 
@@ -72,6 +79,7 @@
 
 | 你要什么 | 技能 |
 |---|---|
+| 「刚部署好，从哪开始？」 | `oryh-workspace-setup` |
 | 「让谢婷能下采购单」 | `oryh-access-admin` |
 | 起草、发布、修订、废止一条公司制度 | `oryh-policy` |
 | 导入和维护主数据 | `oryh-master-data` |
