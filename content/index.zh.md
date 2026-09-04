@@ -25,6 +25,8 @@ docker compose up -d --build
 1. [从一张工时单开始](writing/01-it-started-with-a-timesheet.md)
 2. [如果用 ERP 的主要是 Agent，软件要怎么写？](writing/02-when-agents-use-erp.md)
 3. [软件负责记录，Agent 负责逻辑](writing/03-software-records-agents-decide.md)
+4. [公司的规则，为什么不该是一堆 `if`](writing/04-why-rules-should-not-be-if-statements.md)
+5. [审批走到哪了，不一定是一个状态](writing/05-workflow-position-is-not-a-status.md)
 
 ## 设计说明
 

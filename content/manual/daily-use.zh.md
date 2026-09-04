@@ -9,6 +9,7 @@
 | 你要什么 | 技能 |
 |---|---|
 | 「我有什么要办的？」 | `oryh-my-work` |
+| 「oryh 是怎么回事？」「这个权限什么意思？」「这事要不要 admin？」 | `oryh-help` |
 | 「周四把 B 会议室订了」 | `oryh-resource-booking` |
 | 「我这个月发了多少？」 | `oryh-payslip` |
 | 「连接一下」/「我的密钥不好使了」 | `oryh-connect` |
@@ -47,13 +48,15 @@
 | 你要什么 | 技能 |
 |---|---|
 | 记线索、推进线索、把成熟线索转成客户和商机 | `oryh-crm` |
+| 录入天猫、京东等平台订单 —— 按平台单号防重、商品经映射表翻译、没映射的确认一次以后就记住 | `oryh-order-submit` |
 
 ## 采购与库存
 
 | 你要什么 | 技能 |
 |---|---|
-| 下采购单、维护、按单收货 | `oryh-purchase-order` |
-| 入库、出库、盘点、调整 | `oryh-inventory` |
+| 下采购单、维护、按单收货；按物料清单给代工厂提原料建议 | `oryh-purchase-order` |
+| 存合同原件与关键条款，然后问"这份合同付款节奏是怎样的" | `oryh-contracts` |
+| 入库、出库、盘点、调整；占货、拣货单、发货与过账 | `oryh-inventory` |
 
 ## 财务
 
@@ -62,7 +65,7 @@
 | 给客户开票、登记收款、核销 | `oryh-receivables` |
 | 登记供应商开来的票、与采购单核对、付款 | `oryh-payables` |
 | 客户预存款与挂账额度 | `oryh-billing-account` |
-| 钱在哪、怎么动 —— 银行户与平台账户、流水导入、对账 | `oryh-treasury` |
+| 钱在哪、怎么动 —— 银行户与平台账户、流水导入、手续费作为台账事实、一行对一张付款或对整批代发工资 | `oryh-treasury` |
 
 核销是一本账，不是一个状态字段 —— 一张发票不会因为谁把它设成「已付」就付了，它付了是因为有付款被匹配上去。原因见[发票、收付款与核销](https://github.com/AIE-enginehub/Oryh/blob/main/docs/receivables-payables.md)和[账户余额](https://github.com/AIE-enginehub/Oryh/blob/main/docs/billing-accounts.md)。
 

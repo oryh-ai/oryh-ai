@@ -55,6 +55,8 @@ plugins:
         It started with a timesheet: 从一张工时单开始
         What if the ERP user is an agent?: 如果用 ERP 的主要是 Agent
         Software keeps the records, agents handle the logic: 软件负责记录，Agent 负责逻辑
+        Why company rules shouldn't become a pile of ifs: 公司的规则，为什么不该是一堆 if
+        Workflow position isn't a status: 审批走到哪了，不一定是一个状态
 markdown_extensions:
 - admonition
 - attr_list
@@ -79,3 +81,5 @@ nav:
   - It started with a timesheet: writing/01-it-started-with-a-timesheet.md
   - What if the ERP user is an agent?: writing/02-when-agents-use-erp.md
   - Software keeps the records, agents handle the logic: writing/03-software-records-agents-decide.md
+  - Why company rules shouldn't become a pile of ifs: writing/04-why-rules-should-not-be-if-statements.md
+  - Workflow position isn't a status: writing/05-workflow-position-is-not-a-status.md

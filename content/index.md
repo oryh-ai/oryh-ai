@@ -29,6 +29,8 @@ and why it is shaped the way it is.
 1. [It started with a timesheet](writing/01-it-started-with-a-timesheet.md)
 2. [What if the ERP user is an agent?](writing/02-when-agents-use-erp.md)
 3. [Software keeps the records, agents handle the logic](writing/03-software-records-agents-decide.md)
+4. [Why company rules shouldn't become a pile of ifs](writing/04-why-rules-should-not-be-if-statements.md)
+5. [Workflow position isn't a status](writing/05-workflow-position-is-not-a-status.md)
 
 ## Design notes
 
