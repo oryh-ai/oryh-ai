@@ -33,7 +33,7 @@ docker compose up -d --build
 9. [接口有了，Agent 为什么还是会用错？](writing/09-the-api-exists-why-does-the-agent-still-get-it-wrong.md)
 
 另有一篇谈这个品类往哪儿走：
-[ERP/CRM 正在「隐身」](writing/ai-native-erp-crm-market.md)。
+[ERP/CRM 正在“隐身”](writing/ai-native-erp-crm-market.md)。
 
 ## 设计说明
 

@@ -42,7 +42,6 @@ plugins:
         User manual: 使用手册
         Platform: 平台
         Business objects: 业务对象
-        Writing: 文章
         Home: 首页
         Overview: 手册总览
         Install: 安装部署
@@ -52,16 +51,18 @@ plugins:
         Daily use: 日常使用
         Administration: 管理控制台
         Operations: 运维
-        It started with a timesheet: 从一张工时单开始
-        What if the ERP user is an agent?: 如果用 ERP 的主要是 Agent
-        Software keeps the records, agents handle the logic: 软件负责记录，Agent 负责逻辑
-        Why company rules shouldn't become a pile of ifs: 公司的规则，为什么不该是一堆 if
-        Workflow position isn't a status: 审批走到哪了，不一定是一个状态
-        An agent can disappear, the work can't: Agent 会掉线，事情不能跟着丢
-        Why do we need a flow runner?: 为什么还需要一个 Flow Runner
-        Who actually took this step?: 这一步，到底是谁做的？
-        The API exists — why does the agent still get it wrong?: 接口有了，Agent 为什么还是会用错？
-        ERP and CRM are fading into the background: ERP/CRM 正在「隐身」
+        It Started with a Timesheet: 从一张工时单开始
+        What If the ERP User Is an Agent?: 如果用 ERP 的主要是 Agent，软件要怎么写？
+        Software Keeps the Records. Agents Handle the Logic.: 软件负责记录，Agent 负责逻辑
+        Why Company Rules Shouldn't Become a Pile of `if` Statements: 公司的规则，为什么不该是一堆
+          `if`
+        Workflow Position Isn't a Status: 审批走到哪了，不一定是一个状态
+        An Agent Can Disappear. The Work Can't.: Agent 会掉线，事情不能跟着丢
+        Why Do We Need a Flow Runner?: 为什么还需要一个 Flow Runner
+        Who Actually Took This Step?: 这一步，到底是谁做的？
+        The API Exists. Why Does the Agent Still Get It Wrong?: 接口有了，Agent 为什么还是会用错？
+        ERP and CRM Are Fading into the Background: ERP/CRM 正在“隐身”
+        Writing: 文章
 markdown_extensions:
 - admonition
 - attr_list
@@ -83,13 +84,13 @@ nav:
   - Administration: manual/administration.md
   - Operations: manual/operations.md
 - Writing:
-  - It started with a timesheet: writing/01-it-started-with-a-timesheet.md
-  - What if the ERP user is an agent?: writing/02-when-agents-use-erp.md
-  - Software keeps the records, agents handle the logic: writing/03-software-records-agents-decide.md
-  - Why company rules shouldn't become a pile of ifs: writing/04-why-rules-should-not-be-if-statements.md
-  - Workflow position isn't a status: writing/05-workflow-position-is-not-a-status.md
-  - An agent can disappear, the work can't: writing/06-an-agent-can-disappear-the-work-cant.md
-  - Why do we need a flow runner?: writing/07-why-we-need-a-flow-runner.md
-  - Who actually took this step?: writing/08-who-actually-took-this-step.md
-  - The API exists — why does the agent still get it wrong?: writing/09-the-api-exists-why-does-the-agent-still-get-it-wrong.md
-  - ERP and CRM are fading into the background: writing/ai-native-erp-crm-market.md
+  - It Started with a Timesheet: writing/01-it-started-with-a-timesheet.md
+  - What If the ERP User Is an Agent?: writing/02-when-agents-use-erp.md
+  - Software Keeps the Records. Agents Handle the Logic.: writing/03-software-records-agents-decide.md
+  - Why Company Rules Shouldn't Become a Pile of `if` Statements: writing/04-why-rules-should-not-be-if-statements.md
+  - Workflow Position Isn't a Status: writing/05-workflow-position-is-not-a-status.md
+  - An Agent Can Disappear. The Work Can't.: writing/06-an-agent-can-disappear-the-work-cant.md
+  - Why Do We Need a Flow Runner?: writing/07-why-we-need-a-flow-runner.md
+  - Who Actually Took This Step?: writing/08-who-actually-took-this-step.md
+  - The API Exists. Why Does the Agent Still Get It Wrong?: writing/09-the-api-exists-why-does-the-agent-still-get-it-wrong.md
+  - ERP and CRM Are Fading into the Background: writing/ai-native-erp-crm-market.md

@@ -26,18 +26,18 @@ The open core is Apache-2.0 at
 *When agents start operating a business* — a series on where this came from
 and why it is shaped the way it is.
 
-1. [It started with a timesheet](writing/01-it-started-with-a-timesheet.md)
-2. [What if the ERP user is an agent?](writing/02-when-agents-use-erp.md)
-3. [Software keeps the records, agents handle the logic](writing/03-software-records-agents-decide.md)
-4. [Why company rules shouldn't become a pile of ifs](writing/04-why-rules-should-not-be-if-statements.md)
-5. [Workflow position isn't a status](writing/05-workflow-position-is-not-a-status.md)
-6. [An agent can disappear, the work can't](writing/06-an-agent-can-disappear-the-work-cant.md)
-7. [Why do we need a flow runner?](writing/07-why-we-need-a-flow-runner.md)
-8. [Who actually took this step?](writing/08-who-actually-took-this-step.md)
-9. [The API exists — why does the agent still get it wrong?](writing/09-the-api-exists-why-does-the-agent-still-get-it-wrong.md)
+1. [It Started with a Timesheet](writing/01-it-started-with-a-timesheet.md)
+2. [What If the ERP User Is an Agent?](writing/02-when-agents-use-erp.md)
+3. [Software Keeps the Records. Agents Handle the Logic.](writing/03-software-records-agents-decide.md)
+4. [Why Company Rules Shouldn't Become a Pile of `if` Statements](writing/04-why-rules-should-not-be-if-statements.md)
+5. [Workflow Position Isn't a Status](writing/05-workflow-position-is-not-a-status.md)
+6. [An Agent Can Disappear. The Work Can't.](writing/06-an-agent-can-disappear-the-work-cant.md)
+7. [Why Do We Need a Flow Runner?](writing/07-why-we-need-a-flow-runner.md)
+8. [Who Actually Took This Step?](writing/08-who-actually-took-this-step.md)
+9. [The API Exists. Why Does the Agent Still Get It Wrong?](writing/09-the-api-exists-why-does-the-agent-still-get-it-wrong.md)
 
 Separately, on where the category is going:
-[ERP and CRM are fading into the background](writing/ai-native-erp-crm-market.md).
+[ERP and CRM Are Fading into the Background](writing/ai-native-erp-crm-market.md).
 
 ## Design notes
 
