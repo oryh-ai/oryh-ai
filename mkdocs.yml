@@ -61,6 +61,7 @@ plugins:
         Why Do We Need a Flow Runner?: 为什么还需要一个 Flow Runner
         Who Actually Took This Step?: 这一步，到底是谁做的？
         The API Exists. Why Does the Agent Still Get It Wrong?: 接口有了，Agent 为什么还是会用错？
+        When Product Names Don't Match, Don't Guess: 商品名字对不上，先别让 Agent 猜
         ERP and CRM Are Fading into the Background: ERP/CRM 正在“隐身”
         Writing: 文章
 markdown_extensions:
@@ -93,4 +94,5 @@ nav:
   - Why Do We Need a Flow Runner?: writing/07-why-we-need-a-flow-runner.md
   - Who Actually Took This Step?: writing/08-who-actually-took-this-step.md
   - The API Exists. Why Does the Agent Still Get It Wrong?: writing/09-the-api-exists-why-does-the-agent-still-get-it-wrong.md
+  - When Product Names Don't Match, Don't Guess: writing/10-when-product-names-dont-match-dont-guess.md
   - ERP and CRM Are Fading into the Background: writing/ai-native-erp-crm-market.md

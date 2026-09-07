@@ -31,6 +31,7 @@ docker compose up -d --build
 7. [为什么还需要一个 Flow Runner](writing/07-why-we-need-a-flow-runner.md)
 8. [这一步，到底是谁做的？](writing/08-who-actually-took-this-step.md)
 9. [接口有了，Agent 为什么还是会用错？](writing/09-the-api-exists-why-does-the-agent-still-get-it-wrong.md)
+10. [商品名字对不上，先别让 Agent 猜](writing/10-when-product-names-dont-match-dont-guess.md)
 
 另有一篇谈这个品类往哪儿走：
 [ERP/CRM 正在“隐身”](writing/ai-native-erp-crm-market.md)。

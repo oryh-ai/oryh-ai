@@ -35,6 +35,7 @@ and why it is shaped the way it is.
 7. [Why Do We Need a Flow Runner?](writing/07-why-we-need-a-flow-runner.md)
 8. [Who Actually Took This Step?](writing/08-who-actually-took-this-step.md)
 9. [The API Exists. Why Does the Agent Still Get It Wrong?](writing/09-the-api-exists-why-does-the-agent-still-get-it-wrong.md)
+10. [When Product Names Don't Match, Don't Guess](writing/10-when-product-names-dont-match-dont-guess.md)
 
 Separately, on where the category is going:
 [ERP and CRM Are Fading into the Background](writing/ai-native-erp-crm-market.md).
