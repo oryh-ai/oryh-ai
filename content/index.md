@@ -31,6 +31,13 @@ and why it is shaped the way it is.
 3. [Software keeps the records, agents handle the logic](writing/03-software-records-agents-decide.md)
 4. [Why company rules shouldn't become a pile of ifs](writing/04-why-rules-should-not-be-if-statements.md)
 5. [Workflow position isn't a status](writing/05-workflow-position-is-not-a-status.md)
+6. [An agent can disappear, the work can't](writing/06-an-agent-can-disappear-the-work-cant.md)
+7. [Why do we need a flow runner?](writing/07-why-we-need-a-flow-runner.md)
+8. [Who actually took this step?](writing/08-who-actually-took-this-step.md)
+9. [The API exists — why does the agent still get it wrong?](writing/09-the-api-exists-why-does-the-agent-still-get-it-wrong.md)
+
+Separately, on where the category is going:
+[ERP and CRM are fading into the background](writing/ai-native-erp-crm-market.md).
 
 ## Design notes
 

@@ -74,13 +74,30 @@ employee record is told exactly that — it is a real state, not an error.
 The skills screen exists to answer one question at a glance: **who does this
 skill reach?** A skill aimed at named people with nobody actually named is
 shown as *targeted · nobody* — a real state, and one worth catching, because
-it reaches no one while looking configured.
+it reaches no one while looking configured. The exception is shown as
+*runner only*: the approval-flow skills ship targeted with nobody named,
+because the hosted flow agent drives them and ignores audience. They stay out
+of every person's bundle by default; name a person on one only to let them
+take a flow over by hand.
 
 Access credentials is where you issue an agent key without needing the
 bootstrap key from first boot, and where you disable one that leaked. A key
 can be unusable for reasons that are not about the key — its user is disabled,
 or was never activated — and the screen distinguishes those cases rather than
 reporting a flat failure.
+
+The flow agent screen has one state worth knowing by name: **parked**. The
+runner stops a subscription after several runs in a row that found documents
+waiting and moved none of them — almost always because the workflow
+definition for that family does not say where those documents go. A parked
+subscription stays enabled and does nothing until a person lifts the stop.
+Two things lift it: publishing the next version of that family's workflow
+definition (the usual fix, and the park clears by itself), or `PATCH
+/flow-subscriptions/{id}` with `clear_park: true` when the cause was
+elsewhere — an approver without an employee record, say. The setup report
+lists parked subscriptions with their reason under `flow_driving`. An agent
+holding `keys.manage` can read the subscription and clear the park; nothing
+about it needs the platform operator.
 
 ## The API
 

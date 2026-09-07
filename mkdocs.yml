@@ -57,6 +57,11 @@ plugins:
         Software keeps the records, agents handle the logic: 软件负责记录，Agent 负责逻辑
         Why company rules shouldn't become a pile of ifs: 公司的规则，为什么不该是一堆 if
         Workflow position isn't a status: 审批走到哪了，不一定是一个状态
+        An agent can disappear, the work can't: Agent 会掉线，事情不能跟着丢
+        Why do we need a flow runner?: 为什么还需要一个 Flow Runner
+        Who actually took this step?: 这一步，到底是谁做的？
+        The API exists — why does the agent still get it wrong?: 接口有了，Agent 为什么还是会用错？
+        ERP and CRM are fading into the background: ERP/CRM 正在「隐身」
 markdown_extensions:
 - admonition
 - attr_list
@@ -83,3 +88,8 @@ nav:
   - Software keeps the records, agents handle the logic: writing/03-software-records-agents-decide.md
   - Why company rules shouldn't become a pile of ifs: writing/04-why-rules-should-not-be-if-statements.md
   - Workflow position isn't a status: writing/05-workflow-position-is-not-a-status.md
+  - An agent can disappear, the work can't: writing/06-an-agent-can-disappear-the-work-cant.md
+  - Why do we need a flow runner?: writing/07-why-we-need-a-flow-runner.md
+  - Who actually took this step?: writing/08-who-actually-took-this-step.md
+  - The API exists — why does the agent still get it wrong?: writing/09-the-api-exists-why-does-the-agent-still-get-it-wrong.md
+  - ERP and CRM are fading into the background: writing/ai-native-erp-crm-market.md

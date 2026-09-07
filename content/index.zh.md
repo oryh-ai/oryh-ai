@@ -27,6 +27,13 @@ docker compose up -d --build
 3. [软件负责记录，Agent 负责逻辑](writing/03-software-records-agents-decide.md)
 4. [公司的规则，为什么不该是一堆 `if`](writing/04-why-rules-should-not-be-if-statements.md)
 5. [审批走到哪了，不一定是一个状态](writing/05-workflow-position-is-not-a-status.md)
+6. [Agent 会掉线，事情不能跟着丢](writing/06-an-agent-can-disappear-the-work-cant.md)
+7. [为什么还需要一个 Flow Runner](writing/07-why-we-need-a-flow-runner.md)
+8. [这一步，到底是谁做的？](writing/08-who-actually-took-this-step.md)
+9. [接口有了，Agent 为什么还是会用错？](writing/09-the-api-exists-why-does-the-agent-still-get-it-wrong.md)
+
+另有一篇谈这个品类往哪儿走：
+[ERP/CRM 正在「隐身」](writing/ai-native-erp-crm-market.md)。
 
 ## 设计说明
 
