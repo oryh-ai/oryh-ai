@@ -62,7 +62,24 @@ plugins:
         Who Actually Took This Step?: 这一步，到底是谁做的？
         The API Exists. Why Does the Agent Still Get It Wrong?: 接口有了，Agent 为什么还是会用错？
         When Product Names Don't Match, Don't Guess: 商品名字对不上，先别让 Agent 猜
+        We Gave the Agent Custom Objects. It Bypassed the Business Model: 给了通用对象，Agent
+          却绕开了已有的业务结构
+        The Contract Summary Looks Good. Where Is the Original?: 合同摘要写得很好，原文在哪里？
+        A Material Shortage Is Not a Purchase Decision: 算出缺料，不等于应该下采购单
+        One Bank Debit, Ten Payment Records: 银行扣了一笔钱，系统里却有十张付款单
+        Why “Days of Leave Left” Isn't a Field: “还剩几天假”，为什么不是一个字段？
+        Reserved Stock Hasn't Left the Warehouse: 货被占了，和货已经出库，是两件事
+        We Marked a Customer as a Dealer. What Happens Next?: 把客户标成“经销商”，然后呢？
+        Why Can't Customization Start With a Sentence?: 定制化，为什么不能就是用户的一段话？
+        A New Order Channel: 电商订单来了，改规则，还是改软件？
+        Add One Rule. Why Did the Others Disappear?: 只是加一句规则，原来的规矩怎么没了？
+        ERP for the AI Era Needs a Rewrite, Not an Agent Add-on: AI 时代的 ERP，得重写，不是加个
+          Agent
         ERP and CRM Are Fading into the Background: ERP/CRM 正在“隐身”
+        An Ontology Starts Aging the Day It's Built: 本体建好的那天，它就开始过期
+        Stop Worshipping Ontology: 别再神化本体论
+        We Still Struggle with Objects. Why Bet Enterprise AI on an Ontology?: 面向对象都没玩明白，怎么敢把企业交给本体？
+        Ontology Isn't the Foundation of Enterprise AI: 本体论不是企业 AI 的地基
         Writing: 文章
 markdown_extensions:
 - admonition
@@ -95,4 +112,19 @@ nav:
   - Who Actually Took This Step?: writing/08-who-actually-took-this-step.md
   - The API Exists. Why Does the Agent Still Get It Wrong?: writing/09-the-api-exists-why-does-the-agent-still-get-it-wrong.md
   - When Product Names Don't Match, Don't Guess: writing/10-when-product-names-dont-match-dont-guess.md
+  - We Gave the Agent Custom Objects. It Bypassed the Business Model: writing/11-custom-objects-bypassed-the-business-model.md
+  - The Contract Summary Looks Good. Where Is the Original?: writing/12-the-contract-summary-looks-good-where-is-the-original.md
+  - A Material Shortage Is Not a Purchase Decision: writing/13-a-material-shortage-is-not-a-purchase-decision.md
+  - One Bank Debit, Ten Payment Records: writing/14-one-bank-debit-ten-payment-records.md
+  - Why “Days of Leave Left” Isn't a Field: writing/15-why-days-of-leave-left-isnt-a-field.md
+  - Reserved Stock Hasn't Left the Warehouse: writing/16-reserved-stock-hasnt-left-the-warehouse.md
+  - We Marked a Customer as a Dealer. What Happens Next?: writing/17-we-marked-a-customer-as-a-dealer-what-happens-next.md
+  - Why Can't Customization Start With a Sentence?: writing/18-customization-starts-with-a-sentence.md
+  - A New Order Channel: writing/19-a-new-order-channel-doesnt-need-a-new-workflow-engine.md
+  - Add One Rule. Why Did the Others Disappear?: writing/20-add-one-rule-dont-replace-the-rest.md
+  - ERP for the AI Era Needs a Rewrite, Not an Agent Add-on: writing/ai-era-erp-needs-a-rewrite.md
   - ERP and CRM Are Fading into the Background: writing/ai-native-erp-crm-market.md
+  - An Ontology Starts Aging the Day It's Built: writing/an-ontology-ages-from-the-day-its-built.md
+  - Stop Worshipping Ontology: writing/facts-before-relationship-labels.md
+  - We Still Struggle with Objects. Why Bet Enterprise AI on an Ontology?: writing/if-we-cant-get-objects-right-why-build-ontology.md
+  - Ontology Isn't the Foundation of Enterprise AI: writing/ontology-is-not-the-foundation-of-enterprise-ai.md

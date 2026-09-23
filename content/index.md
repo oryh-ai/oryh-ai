@@ -36,9 +36,25 @@ and why it is shaped the way it is.
 8. [Who Actually Took This Step?](writing/08-who-actually-took-this-step.md)
 9. [The API Exists. Why Does the Agent Still Get It Wrong?](writing/09-the-api-exists-why-does-the-agent-still-get-it-wrong.md)
 10. [When Product Names Don't Match, Don't Guess](writing/10-when-product-names-dont-match-dont-guess.md)
+11. [We Gave the Agent Custom Objects. It Bypassed the Business Model](writing/11-custom-objects-bypassed-the-business-model.md)
+12. [The Contract Summary Looks Good. Where Is the Original?](writing/12-the-contract-summary-looks-good-where-is-the-original.md)
+13. [A Material Shortage Is Not a Purchase Decision](writing/13-a-material-shortage-is-not-a-purchase-decision.md)
+14. [One Bank Debit, Ten Payment Records](writing/14-one-bank-debit-ten-payment-records.md)
+15. [Why “Days of Leave Left” Isn't a Field](writing/15-why-days-of-leave-left-isnt-a-field.md)
+16. [Reserved Stock Hasn't Left the Warehouse](writing/16-reserved-stock-hasnt-left-the-warehouse.md)
+17. [We Marked a Customer as a Dealer. What Happens Next?](writing/17-we-marked-a-customer-as-a-dealer-what-happens-next.md)
+18. [Why Can't Customization Start With a Sentence?](writing/18-customization-starts-with-a-sentence.md)
+19. [A New Order Channel](writing/19-a-new-order-channel-doesnt-need-a-new-workflow-engine.md)
+20. [Add One Rule. Why Did the Others Disappear?](writing/20-add-one-rule-dont-replace-the-rest.md)
 
-Separately, on where the category is going:
-[ERP and CRM Are Fading into the Background](writing/ai-native-erp-crm-market.md).
+Outside the series:
+
+- [ERP for the AI Era Needs a Rewrite, Not an Agent Add-on](writing/ai-era-erp-needs-a-rewrite.md)
+- [ERP and CRM Are Fading into the Background](writing/ai-native-erp-crm-market.md)
+- [An Ontology Starts Aging the Day It's Built](writing/an-ontology-ages-from-the-day-its-built.md)
+- [Stop Worshipping Ontology](writing/facts-before-relationship-labels.md)
+- [We Still Struggle with Objects. Why Bet Enterprise AI on an Ontology?](writing/if-we-cant-get-objects-right-why-build-ontology.md)
+- [Ontology Isn't the Foundation of Enterprise AI](writing/ontology-is-not-the-foundation-of-enterprise-ai.md)
 
 ## Design notes
 

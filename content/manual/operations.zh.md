@@ -49,7 +49,19 @@ docker compose logs api | grep -A6 "\oryh email\"
 docker compose --profile flow-runner up -d
 ```
 
-它需要你提供两个文件：一个凭据文件，装工作区 id 和一把服务密钥（首次启动那把就行）；一个 provider 文件，装你的模型凭据。两者都以只读挂载，模型密钥每次运行时重新读取，并且只传给 agent 子进程。
+它需要你在 `docker-compose.yml` 旁边放两个文件。两者都以只读挂载，模型密钥每次运行时重新读取，并且只传给 agent 子进程。
+
+`flow-runner-credentials.json`——驱动哪个工作区，用一把服务密钥（首次启动那把就行；`GET /api/v1/tenant` 返回工作区 id）：
+
+```json
+{"tenant_id": "<工作区 id>", "api_key": "<服务密钥>"}
+```
+
+`flow-runner-provider.json`——你的 agent 运行时读取模型凭据的环境变量，一个扁平对象；跑 stub adapter 时写 `{}`：
+
+```json
+{"ANTHROPIC_API_KEY": "<你的密钥>"}
+```
 
 先把 `ORYH_RUNNER_PI_BINARY` 留空，用桩适配器观察它的行为，再决定要不要花模型调用。**没有装任何流程技能时不存在订阅，所以它会一直空转** —— 那是预期中的静止状态，不是故障。
 
