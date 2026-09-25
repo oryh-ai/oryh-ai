@@ -47,10 +47,33 @@ docker compose up -d --build
 
 - [AI 时代的 ERP，得重写，不是加个 Agent](writing/ai-era-erp-needs-a-rewrite.md)
 - [ERP/CRM 正在“隐身”](writing/ai-native-erp-crm-market.md)
-- [本体建好的那天，它就开始过期](writing/an-ontology-ages-from-the-day-its-built.md)
-- [别再神化本体论](writing/facts-before-relationship-labels.md)
-- [面向对象都没玩明白，怎么敢把企业交给本体？](writing/if-we-cant-get-objects-right-why-build-ontology.md)
-- [本体论不是企业 AI 的地基](writing/ontology-is-not-the-foundation-of-enterprise-ai.md)
+
+### 本体论随笔
+
+- [本体论不是企业 AI 的地基](writing/ontology/ontology-is-not-the-foundation-of-enterprise-ai.md)
+- [本体建好的那天，它就开始过期](writing/ontology/an-ontology-ages-from-the-day-its-built.md)
+- [别再神化本体论](writing/ontology/facts-before-relationship-labels.md)
+- [面向对象都没玩明白，怎么敢把企业交给本体？](writing/ontology/if-we-cant-get-objects-right-why-build-ontology.md)
+- [知识图谱连了万条边，也读不懂一句人话](writing/ontology/a-million-edges-cannot-read-a-sentence.md)
+- [AI 都能画出企业地图了，为什么还要让它按地图走？](writing/ontology/if-ai-can-draw-the-map-why-make-it-follow-the-map.md)
+- [一辆车到底该拆成多少个对象？](writing/ontology/how-many-objects-in-one-car.md)
+- [轮胎今天成了对象，昨天上线的系统谁来收拾？](writing/ontology/when-a-tire-becomes-an-object-who-fixes-yesterday.md)
+- [老单据没记轮胎，补个本体就能补出过去？](writing/ontology/a-new-ontology-cannot-invent-old-tires.md)
+- [制度多了一个“除非”，昨天的审批怎么办？](writing/ontology/one-unless-can-undo-yesterdays-answer.md)
+- [本体不是做不出来，是后来没人敢改了](writing/ontology/the-ontology-worked-until-nobody-dared-change-it.md)
+
+### FDE 随笔
+
+- [换张 FDE 名片，就成企业 AI 专家了？](writing/fde/a-new-badge-does-not-make-an-ai-expert.md)
+- [连成熟 ERP 都要扩展，改叫 FDE 就不用开发了？](writing/fde/sap-needs-extensions-a-new-title-doesnt-remove-development.md)
+- [AI 少写客户专用代码，现场的人反而得更懂业务](writing/fde/less-customer-code-more-judgment.md)
+- [不懂行业，凭什么自称企业 AI 专家？](writing/fde/industry-veteran-not-model-operator.md)
+- [连客户谁说了算都不知道，部署的是什么？](writing/fde/you-dont-know-who-decides.md)
+- [FDE 培训班，培训得出行业阅历吗？](writing/fde/you-cant-train-experience-in-a-bootcamp.md)
+- [真正的 FDE，普通公司养得起吗？](writing/fde/can-an-ordinary-company-afford-a-real-fde.md)
+- [低价中标的项目，拿什么养真正的 FDE？](writing/fde/low-bid-projects-cannot-grow-real-fdes.md)
+- [一个超级个体能救项目，救不了整套交付模式](writing/fde/one-hero-is-not-a-delivery-model.md)
+- [现场项目经理就叫现场项目经理，何必冒充 FDE？](writing/fde/a-project-manager-is-not-a-fde-and-thats-fine.md)
 
 ## 设计说明
 

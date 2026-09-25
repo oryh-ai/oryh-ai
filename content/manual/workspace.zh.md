@@ -37,6 +37,7 @@ docker compose logs api | grep -A6 "\oryh email\"
 
 - **读也是权限。** `payroll.read` 和改工资一样重，所以有些能力**没有授予任何一个预置角色** —— 由谁持有是你的决定，不是默认值。
 - **「我的」和「所有人的」是两种授权。** 每个人都能看自己的工时、请假、报销、采购申请、报价、订单、线索和商机，以及转到自己手上审批的单据。看**所有人的**需要 `timesheet.read_all`、`leave.read_all`、`expense.read_all`、`purchase.read_all`、`quotation.read_all`、`order.read_all` 或 `crm.read_all` —— 或者一份不可能闭着眼做的工作：能推进某类单据、发货、开票、付款的角色，本来就读得到它。希望销售管线全员可见的团队，把 `crm.read_all` 授给 `member` 即可；这是你的决定，不是默认值。
+- **共享单据也按授权读。** 发票、收付款、采购订单、运单、库存、业务对象、往来账户没有「本人」，读它们各要一项读权限（`invoice.read`、`payment.read`、`purchase_order.read`、`shipment.read`、`inventory.read`、`business_object.read`、`billing_account.read`）。`member` 默认全都有，所以员工读得到公司的单据；写某一族的岗位读得到那一族，带作用域的授权只读它那个作用域（`invoice.manage:sales` 读销项发票，`business_object.write:warranty_card` 读保修卡）。给外部账号——供应商、客户的代表——建角色时，只给它需要的读和写：没有一族的读权限，它就只看得到自己经办、自己创建和转到自己手上的记录。
 - **文字无法扩大授权。** 技能说明和 calibration 改变的是「怎么做」；「允许做什么」由服务端决定，不管指令里怎么写。正是这条边界，让改技能文字这件事可以随手做。
 
 ## 主数据

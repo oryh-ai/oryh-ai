@@ -76,11 +76,31 @@ plugins:
         ERP for the AI Era Needs a Rewrite, Not an Agent Add-on: AI 时代的 ERP，得重写，不是加个
           Agent
         ERP and CRM Are Fading into the Background: ERP/CRM 正在“隐身”
+        Ontology Isn't the Foundation of Enterprise AI: 本体论不是企业 AI 的地基
         An Ontology Starts Aging the Day It's Built: 本体建好的那天，它就开始过期
         Stop Worshipping Ontology: 别再神化本体论
         We Still Struggle with Objects. Why Bet Enterprise AI on an Ontology?: 面向对象都没玩明白，怎么敢把企业交给本体？
-        Ontology Isn't the Foundation of Enterprise AI: 本体论不是企业 AI 的地基
+        A Million Edges Still Cannot Read a Sentence: 知识图谱连了万条边，也读不懂一句人话
+        If AI Can Draw the Company's Map, Why Make It Follow the Map?: AI 都能画出企业地图了，为什么还要让它按地图走？
+        How Many Objects Are There in One Car?: 一辆车到底该拆成多少个对象？
+        A Tire Becomes an Object Today. Who Fixes Yesterday's System?: 轮胎今天成了对象，昨天上线的系统谁来收拾？
+        Old Repair Records Have No Tire IDs. Can a New Ontology Invent Them?: 老单据没记轮胎，补个本体就能补出过去？
+        One “Unless” in the Policy. What Happens to Yesterday's Approvals?: 制度多了一个“除非”，昨天的审批怎么办？
+        The Ontology Worked. Then Nobody Dared Change It.: 本体不是做不出来，是后来没人敢改了
+        Does an FDE Badge Make You an Enterprise AI Expert?: 换张 FDE 名片，就成企业 AI 专家了？
+        Even Mature ERP Needs Extensions. Does Calling Someone an FDE Remove Development?: 连成熟
+          ERP 都要扩展，改叫 FDE 就不用开发了？
+        Less Customer-Specific Code, More Judgment on Site: AI 少写客户专用代码，现场的人反而得更懂业务
+        Industry Experience Is Not a Model-Operator Certificate: 不懂行业，凭什么自称企业 AI 专家？
+        If You Do Not Know Who Decides, What Exactly Are You Deploying?: 连客户谁说了算都不知道，部署的是什么？
+        Can an FDE Bootcamp Teach Industry Experience?: FDE 培训班，培训得出行业阅历吗？
+        Can an Ordinary Company Afford a Real FDE?: 真正的 FDE，普通公司养得起吗？
+        What Pays for a Real FDE on a Low-Bid Project?: 低价中标的项目，拿什么养真正的 FDE？
+        One Hero Can Save a Project. That Is Not a Delivery Model.: 一个超级个体能救项目，救不了整套交付模式
+        A Project Manager Is Not an FDE. That Is Fine.: 现场项目经理就叫现场项目经理，何必冒充 FDE？
         Writing: 文章
+        Ontology essays: 本体论随笔
+        FDE essays: FDE 随笔
 markdown_extensions:
 - admonition
 - attr_list
@@ -124,7 +144,26 @@ nav:
   - Add One Rule. Why Did the Others Disappear?: writing/20-add-one-rule-dont-replace-the-rest.md
   - ERP for the AI Era Needs a Rewrite, Not an Agent Add-on: writing/ai-era-erp-needs-a-rewrite.md
   - ERP and CRM Are Fading into the Background: writing/ai-native-erp-crm-market.md
-  - An Ontology Starts Aging the Day It's Built: writing/an-ontology-ages-from-the-day-its-built.md
-  - Stop Worshipping Ontology: writing/facts-before-relationship-labels.md
-  - We Still Struggle with Objects. Why Bet Enterprise AI on an Ontology?: writing/if-we-cant-get-objects-right-why-build-ontology.md
-  - Ontology Isn't the Foundation of Enterprise AI: writing/ontology-is-not-the-foundation-of-enterprise-ai.md
+- Ontology essays:
+  - Ontology Isn't the Foundation of Enterprise AI: writing/ontology/ontology-is-not-the-foundation-of-enterprise-ai.md
+  - An Ontology Starts Aging the Day It's Built: writing/ontology/an-ontology-ages-from-the-day-its-built.md
+  - Stop Worshipping Ontology: writing/ontology/facts-before-relationship-labels.md
+  - We Still Struggle with Objects. Why Bet Enterprise AI on an Ontology?: writing/ontology/if-we-cant-get-objects-right-why-build-ontology.md
+  - A Million Edges Still Cannot Read a Sentence: writing/ontology/a-million-edges-cannot-read-a-sentence.md
+  - If AI Can Draw the Company's Map, Why Make It Follow the Map?: writing/ontology/if-ai-can-draw-the-map-why-make-it-follow-the-map.md
+  - How Many Objects Are There in One Car?: writing/ontology/how-many-objects-in-one-car.md
+  - A Tire Becomes an Object Today. Who Fixes Yesterday's System?: writing/ontology/when-a-tire-becomes-an-object-who-fixes-yesterday.md
+  - Old Repair Records Have No Tire IDs. Can a New Ontology Invent Them?: writing/ontology/a-new-ontology-cannot-invent-old-tires.md
+  - One “Unless” in the Policy. What Happens to Yesterday's Approvals?: writing/ontology/one-unless-can-undo-yesterdays-answer.md
+  - The Ontology Worked. Then Nobody Dared Change It.: writing/ontology/the-ontology-worked-until-nobody-dared-change-it.md
+- FDE essays:
+  - Does an FDE Badge Make You an Enterprise AI Expert?: writing/fde/a-new-badge-does-not-make-an-ai-expert.md
+  - Even Mature ERP Needs Extensions. Does Calling Someone an FDE Remove Development?: writing/fde/sap-needs-extensions-a-new-title-doesnt-remove-development.md
+  - Less Customer-Specific Code, More Judgment on Site: writing/fde/less-customer-code-more-judgment.md
+  - Industry Experience Is Not a Model-Operator Certificate: writing/fde/industry-veteran-not-model-operator.md
+  - If You Do Not Know Who Decides, What Exactly Are You Deploying?: writing/fde/you-dont-know-who-decides.md
+  - Can an FDE Bootcamp Teach Industry Experience?: writing/fde/you-cant-train-experience-in-a-bootcamp.md
+  - Can an Ordinary Company Afford a Real FDE?: writing/fde/can-an-ordinary-company-afford-a-real-fde.md
+  - What Pays for a Real FDE on a Low-Bid Project?: writing/fde/low-bid-projects-cannot-grow-real-fdes.md
+  - One Hero Can Save a Project. That Is Not a Delivery Model.: writing/fde/one-hero-is-not-a-delivery-model.md
+  - A Project Manager Is Not an FDE. That Is Fine.: writing/fde/a-project-manager-is-not-a-fde-and-thats-fine.md

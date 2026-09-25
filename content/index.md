@@ -51,10 +51,33 @@ Outside the series:
 
 - [ERP for the AI Era Needs a Rewrite, Not an Agent Add-on](writing/ai-era-erp-needs-a-rewrite.md)
 - [ERP and CRM Are Fading into the Background](writing/ai-native-erp-crm-market.md)
-- [An Ontology Starts Aging the Day It's Built](writing/an-ontology-ages-from-the-day-its-built.md)
-- [Stop Worshipping Ontology](writing/facts-before-relationship-labels.md)
-- [We Still Struggle with Objects. Why Bet Enterprise AI on an Ontology?](writing/if-we-cant-get-objects-right-why-build-ontology.md)
-- [Ontology Isn't the Foundation of Enterprise AI](writing/ontology-is-not-the-foundation-of-enterprise-ai.md)
+
+### Ontology essays
+
+- [Ontology Isn't the Foundation of Enterprise AI](writing/ontology/ontology-is-not-the-foundation-of-enterprise-ai.md)
+- [An Ontology Starts Aging the Day It's Built](writing/ontology/an-ontology-ages-from-the-day-its-built.md)
+- [Stop Worshipping Ontology](writing/ontology/facts-before-relationship-labels.md)
+- [We Still Struggle with Objects. Why Bet Enterprise AI on an Ontology?](writing/ontology/if-we-cant-get-objects-right-why-build-ontology.md)
+- [A Million Edges Still Cannot Read a Sentence](writing/ontology/a-million-edges-cannot-read-a-sentence.md)
+- [If AI Can Draw the Company's Map, Why Make It Follow the Map?](writing/ontology/if-ai-can-draw-the-map-why-make-it-follow-the-map.md)
+- [How Many Objects Are There in One Car?](writing/ontology/how-many-objects-in-one-car.md)
+- [A Tire Becomes an Object Today. Who Fixes Yesterday's System?](writing/ontology/when-a-tire-becomes-an-object-who-fixes-yesterday.md)
+- [Old Repair Records Have No Tire IDs. Can a New Ontology Invent Them?](writing/ontology/a-new-ontology-cannot-invent-old-tires.md)
+- [One “Unless” in the Policy. What Happens to Yesterday's Approvals?](writing/ontology/one-unless-can-undo-yesterdays-answer.md)
+- [The Ontology Worked. Then Nobody Dared Change It.](writing/ontology/the-ontology-worked-until-nobody-dared-change-it.md)
+
+### FDE essays
+
+- [Does an FDE Badge Make You an Enterprise AI Expert?](writing/fde/a-new-badge-does-not-make-an-ai-expert.md)
+- [Even Mature ERP Needs Extensions. Does Calling Someone an FDE Remove Development?](writing/fde/sap-needs-extensions-a-new-title-doesnt-remove-development.md)
+- [Less Customer-Specific Code, More Judgment on Site](writing/fde/less-customer-code-more-judgment.md)
+- [Industry Experience Is Not a Model-Operator Certificate](writing/fde/industry-veteran-not-model-operator.md)
+- [If You Do Not Know Who Decides, What Exactly Are You Deploying?](writing/fde/you-dont-know-who-decides.md)
+- [Can an FDE Bootcamp Teach Industry Experience?](writing/fde/you-cant-train-experience-in-a-bootcamp.md)
+- [Can an Ordinary Company Afford a Real FDE?](writing/fde/can-an-ordinary-company-afford-a-real-fde.md)
+- [What Pays for a Real FDE on a Low-Bid Project?](writing/fde/low-bid-projects-cannot-grow-real-fdes.md)
+- [One Hero Can Save a Project. That Is Not a Delivery Model.](writing/fde/one-hero-is-not-a-delivery-model.md)
+- [A Project Manager Is Not an FDE. That Is Fine.](writing/fde/a-project-manager-is-not-a-fde-and-thats-fine.md)
 
 ## Design notes
 
