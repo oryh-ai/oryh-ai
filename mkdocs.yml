@@ -101,6 +101,16 @@ plugins:
         Writing: 文章
         Ontology essays: 本体论随笔
         FDE essays: FDE 随笔
+- redirects:
+    redirect_maps:
+      writing/ontology-is-not-the-foundation-of-enterprise-ai.md: writing/ontology/ontology-is-not-the-foundation-of-enterprise-ai.md
+      writing/an-ontology-ages-from-the-day-its-built.md: writing/ontology/an-ontology-ages-from-the-day-its-built.md
+      writing/facts-before-relationship-labels.md: writing/ontology/facts-before-relationship-labels.md
+      writing/if-we-cant-get-objects-right-why-build-ontology.md: writing/ontology/if-we-cant-get-objects-right-why-build-ontology.md
+      zh/writing/ontology-is-not-the-foundation-of-enterprise-ai.md: https://oryh-ai.github.io/oryh-ai/zh/writing/ontology/ontology-is-not-the-foundation-of-enterprise-ai/
+      zh/writing/an-ontology-ages-from-the-day-its-built.md: https://oryh-ai.github.io/oryh-ai/zh/writing/ontology/an-ontology-ages-from-the-day-its-built/
+      zh/writing/facts-before-relationship-labels.md: https://oryh-ai.github.io/oryh-ai/zh/writing/ontology/facts-before-relationship-labels/
+      zh/writing/if-we-cant-get-objects-right-why-build-ontology.md: https://oryh-ai.github.io/oryh-ai/zh/writing/ontology/if-we-cant-get-objects-right-why-build-ontology/
 markdown_extensions:
 - admonition
 - attr_list
