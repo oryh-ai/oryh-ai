@@ -97,7 +97,7 @@ agent 写任何东西之前——报销、发货、库存过账、记一笔付�
 |---|---|
 | 「刚部署好，从哪开始？」 | `oryh-workspace-setup` |
 | 「让谢婷能下采购单」 | `oryh-access-admin` |
-| 起草、发布、修订、废止一条公司制度 | `oryh-policy` |
+| 起草、发布、修订、废止一条公司规则 —— 制度、审批流程、数据要求、单据联动 | `oryh-business-rules` |
 | 导入和维护主数据 | `oryh-master-data` |
 | 把一句流程要求变成工作区配置 | `oryh-skill-author` |
 | 从旧系统批量导入历史 | `oryh-data-migration` |
