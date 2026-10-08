@@ -58,7 +58,7 @@ Another group begins explicitly with headless or API-first architecture. [Tailor
 
 Their emphasis varies. Tailor uses pipelines, functions, and state machines to support custom processes. Nama sends agent writes through the same accounting and inventory validations used by its conventional interface. ERES emphasizes bring-your-own-agent access and skills. ERP.AI keeps business rules in platform services. [aicroo](https://www.aicroo.com/en/) more directly presents Finance, People, and Time modules for agent consumption, although it remains in early access and needs more public evidence of operation at scale.
 
-[ORYH belongs in this group but takes the idea further: if AI-native means reconsidering the division of responsibility from the architectural starting point, it is one of the few products here genuinely implemented that way—the software records facts, permissions, constraints, and audit history, while general-purpose agents execute business logic through Skills.
+ORYH belongs in this group but takes the idea further: if AI-native means reconsidering the division of responsibility from the architectural starting point, it is one of the few products here genuinely implemented that way—the software records facts, permissions, constraints, and audit history, while general-purpose agents execute business logic through Skills.
 
 Together, these products show that headless is no longer just a development pattern for separating a front end from a backend. It is becoming an enterprise-software product model: the backend maintains a reliable data boundary, while the front end may be a conventional application or the company’s own agent.
 

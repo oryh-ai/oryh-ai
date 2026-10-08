@@ -120,7 +120,7 @@ day" written as a policy is a rule an agent applies rather than a paragraph
 nobody opens. Every shipped document family starts with a seeded draft of
 its approval flow (and, where it helps, a data rule and a linkage): read it,
 change the sentences that are not yours, publish. Nothing runs on a draft.
-See [business rules.
+See [business rules](https://github.com/AIE-enginehub/Oryh/blob/main/docs/business-rules.md).
 
 ## Your own object types
 
